@@ -105,7 +105,6 @@ public class MainActivity extends AppCompatActivity  {
         } else if (flag == 2) {
             Toast.makeText(MainActivity.this, "Success", Toast.LENGTH_SHORT).show();
             bestRecyclerView = (RecyclerView)findViewById(R.id.product_list);
-
             GridLayoutManager mGrid = new GridLayoutManager(getApplicationContext(),2);
             bestRecyclerView.setLayoutManager(mGrid);
             bestRecyclerView.setHasFixedSize(true);
